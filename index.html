@@ -11,27 +11,30 @@
           <ul>
             <li><a href="#">Информация</a></li>
             <li><a href="#">Фота и видео</a></li>
+          </ul>
+          <div class="logo_icon"><img src="http://placehold.it/150x100" alt="Логотип" width="150px" height="100px"></div>
+          <ul>
             <li><a href="#">Карта штата</a></li>
             <li><a href="#">Гостиницы</a></li>
-          </ul>
-          <img class="logo_icon" src="http://placehold.it/150x100" alt="Логотип" width="150px" height="100px">
+          </ul>  
         </nav>
       </div>
     </header>
     <main class="container">
-      <div class="logo">
-        <img src="http://placehold.it/150x100" alt="Добро пожаловать в Седону" width="150px" height="100px">
+      <div class="main_banner">
+        <img src="http://placehold.it/150x100" alt="Добро пожаловать в Седону" width="100%" height="100px">
       </div>
-      <b class="lead">Седона - небольшой городок в Аризоне, заслуживающий большего!</b>
-      <span>Рассмотрим 5 причин, по которым седона круче, чем Гранд Каньон!</span>
-
+      <div class="lead">
+        <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
+        <p>Рассмотрим 5 причин, по которым седона круче, чем Гранд Каньон!</p>
+      </div>
       <section class="reason">
         <div>
           <h2 class="reason_name">Настоящий городок</h2>
           <span>№1</span>
           <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
         </div>
-        <img src=http://placehold.it/150x100" alt="Седона" width="150px" height="100px">
+        <img src=http://placehold.it/150x100" alt="Седона" width="66%" height="100px">
       </section>
 
       <section class="reason">
@@ -55,7 +58,7 @@
       </section>
 
       <section class="reason">
-        <img src=http://placehold.it/150x100" alt="Мост дьявола" width="150px" height="100px">
+        <img src=http://placehold.it/150x100" alt="Мост дьявола" width="66%" height="100px">
         <div>
           <h2 class="reason_name">Там есть мост дьявола</h2>
           <span>№2</span>
@@ -86,15 +89,19 @@
       <section class="find_hotel">
         <span>Заинтересовались?</span>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <div class="find_form_link">
+          <a href="#">Поиск гостиниц в Седоне</a>
+        </div> 
         <form action="#" method="get">
-          <span>Поиск гостиниц в Седоне</span>
           <label>Дата заезда:<input type="date" name="check_in" value="2016-04-22"></label>
-          <label>Дата выезда:<input type="date" name="check_in" value="2016-07-04"></label>
+          <label>Дата выезда:<input type="date" name="check_out" value="2016-07-04"></label>
           <label>Взрослые:<input type="number" name="adults" value="2"></label>
           <label>Дети:<input type="number" name="children" value="0"></label>
           <input type="submit" name="find" value="Найти">
         </form>
-        <div class="map"></div>
+        <div class="map">
+          <img src="http://placehold.it/150x100" alt="Карта" width="100%" height="100px">
+        </div>
       </section>
     </main>
     <footer class="container">
